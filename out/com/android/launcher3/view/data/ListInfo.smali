@@ -48,7 +48,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -328,10 +328,16 @@
 
     aput-object v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const-string v2, "com.juyou.app"
+
+    aput-object v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mPackageNameList_DAUDIO:[Ljava/lang/String;
 
     .line 71
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -611,10 +617,16 @@
 
     aput-object v2, v0, v1
 
+	const/16 v1, 0x2f
+
+    const-string v2, "com.juyou.app.activity.MainFragmentActivity"
+
+    aput-object v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mClassNameList_DAUDIO:[Ljava/lang/String;
 
     .line 122
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -879,6 +891,12 @@
     aput v2, v0, v1
 
     const/16 v1, 0x2e
+
+    const v2, 0x7f0201ae
+
+    aput v2, v0, v1
+
+    const/16 v1, 0x2f
 
     const v2, 0x7f0201ae
 
@@ -887,7 +905,7 @@
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mIconEnableList_DAUDIO:[I
 
     .line 172
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -1137,10 +1155,16 @@
 
     aput v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const v2, 0x7f0201af
+
+    aput v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mIconDisableList_DAUDIO:[I
 
     .line 223
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -1416,10 +1440,16 @@
 
     aput v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const v2, 0x7f0a00ad
+
+    aput v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mTitleList_DAUDIO:[I
 
     .line 274
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -1699,10 +1729,16 @@
 
     aput-object v2, v0, v1
 
+    const/16 v1, 0x2e
+
+    const-string v2, "com.juyou.app"
+
+    aput-object v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mPackageNameList_DAUDIO_KIA:[Ljava/lang/String;
 
     .line 324
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -1982,10 +2018,16 @@
 
     aput-object v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const-string v2, "com.juyou.app.activity.MainFragmentActivity"
+
+    aput-object v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mClassNameList_DAUDIO_KIA:[Ljava/lang/String;
 
     .line 375
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -2255,10 +2297,16 @@
 
     aput v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const v2, 0x7f0201ae
+
+    aput v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mIconEnableList_DAUDIO_KIA:[I
 
     .line 426
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -2508,10 +2556,16 @@
 
     aput v2, v0, v1
 
+    const/16 v1, 0x2f
+
+    const v2, 0x7f0201af
+
+    aput v2, v0, v1
+
     iput-object v0, p0, Lcom/android/launcher3/view/data/ListInfo;->mIconDisableList_DAUDIO_KIA:[I
 
     .line 477
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     new-array v0, v0, [I
 
@@ -2782,6 +2836,12 @@
     aput v2, v0, v1
 
     const/16 v1, 0x2e
+
+    const v2, 0x7f0a00ad
+
+    aput v2, v0, v1
+
+    const/16 v1, 0x2f
 
     const v2, 0x7f0a00ad
 
